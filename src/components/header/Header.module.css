@@ -1,0 +1,25 @@
+.header-wrapper {
+	grid-area: header;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.profile-wrapper {
+	position: relative;
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	gap: 0.5rem;
+}
+.profile-wrapper img {
+	width: 40px;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	display: block;
+	object-fit: cover;
+}
+.profile-wrapper span {
+	font-weight: 600;
+}

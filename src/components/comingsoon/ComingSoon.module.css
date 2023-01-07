@@ -1,0 +1,11 @@
+.coming-soon-container {
+	display: grid;
+	place-items: center;
+	height: 100%;
+}
+.coming-soon-container h1 {
+	font-size: min(4rem, 10vw);
+	white-space: nowrap;
+	color: lightgray;
+	text-transform: uppercase;
+}

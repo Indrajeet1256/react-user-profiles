@@ -1,0 +1,14 @@
+.dashboard-wrapper {
+	position: relative;
+	height: calc(100% - 4rem);
+	margin: 2rem;
+	display: grid;
+	grid-template-columns: 2fr 5.1fr;
+	grid-template-rows: 0.5fr 5fr 0.1fr;
+	gap: 0px 0px;
+	grid-template-areas:
+		"sidebar header"
+		"sidebar profile"
+		"sidebar profile";
+	gap: 1rem;
+}

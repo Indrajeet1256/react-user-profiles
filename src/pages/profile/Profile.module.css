@@ -1,0 +1,86 @@
+.profile-wrapper {
+	grid-area: profile;
+	display: flex;
+	gap: 1rem;
+}
+.profile-details {
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-inline: 1rem;
+	border-right: 1px solid #ccc;
+}
+.map {
+	flex: 3;
+}
+
+.profile-image-wrapper {
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.profile-image-wrapper img {
+	width: 100px;
+	aspect-ratio: 1;
+	border-radius: 100%;
+}
+.profile-image-wrapper h2 {
+	font-size: 1.5rem;
+}
+
+.basic-details ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin-block: 1rem;
+}
+.basic-details ul label {
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: teal;
+	text-decoration: underline;
+	display: inline-block;
+}
+.basic-details ul li {
+	position: relative;
+}
+.basic-details ul li strong {
+	margin-right: 10px;
+	font-size: 1.1rem;
+	color: gray;
+	font-weight: 500;
+}
+.basic-details ul li span {
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: #29323c;
+}
+.map {
+	width: 100%;
+	height: 100%;
+}
+.address-details {
+	margin-bottom: 1rem;
+}
+.address-details h2 {
+	font-weight: 500;
+	font-size: 1.2rem;
+	color: gray;
+	text-decoration: underline;
+}
+.address-details > p {
+	font-size: 1.1rem;
+	margin-block: 0.5rem;
+	margin-left: 1rem;
+}
+.address-details > p > strong {
+	margin-right: 0.5rem;
+	color: teal;
+	font-weight: 500;
+}
+.address-details > p > span {
+	font-weight: 600;
+}

@@ -1,0 +1,54 @@
+.card-wrapper {
+	z-index: 1;
+	background-color: #fff;
+	width: min(560px, 90%);
+	border-radius: 10px;
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.25);
+	height: 560px;
+	padding-bottom: 50px;
+	overflow: hidden;
+}
+.card-wrapper header {
+	width: 100%;
+	text-align: center;
+	background-color: #f7f7f7;
+	padding: 40px 20px;
+	font-size: 1.6rem;
+	border-bottom: 1px darkcyan solid;
+	font-weight: 600;
+	color: #29323c;
+	white-space: nowrap;
+}
+
+.card-list {
+	height: calc(100% - 60px);
+	overflow-y: scroll;
+	padding-inline: 10px;
+}
+.card-list::-webkit-scrollbar {
+	width: 5px;
+}
+.card-list::-webkit-scrollbar-thumb {
+	background-color: gray;
+	height: 150px;
+}
+.card-list-item {
+	cursor: pointer;
+	position: relative;
+	min-height: 40px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	padding-block: 10px;
+}
+.card-list-item img {
+	width: 40px;
+	margin-right: 10px;
+	aspect-ratio: 1;
+	display: block;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.card-list-item:not(:last-child) {
+	border-bottom: 1px solid #ccc;
+}
